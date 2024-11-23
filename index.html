@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keyboard-shortcuts-preference" content="all">
+    <meta name="hostname" content="tamanna-sb.github.io">
+    <meta name="expected-hostname" content="tamanna-sb.github.io">
+    <meta name="description" content="Welcome to the portfolio of Salma Begum Tamanna, a software engineer. Explore my projects, skills, and contact information. Let's build something amazing together!">
+    <meta name="keywords" content="Salma Begum Tamanna, software engineer, Salma Begum Tamanna github, tamannasb, tamanna-sb, C# developer, portfolio, backend developer, C#, Java, Spring, ASP.NET , .NET, UWP, JavaScript, Node.js, MySQL, software engineer, programmer, coder,">
+
+
+
+    <meta property="og:site_name" content="Salma Begum Tamanna - Portfolio">
+    <meta property="og:title" content="Salma Begum Tamanna">
+    <meta property="og:description" content="Portfolio Website">
+    <meta property="og:image" content="" />
+
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="600">
+    <meta property="og:url" content="tamanna-sb.github.io">
+    <meta property="og:type" content="website">
+    <meta property="og:image:alt" content="website icon" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="tamanna-sb" />
+    <meta name="twitter:title" content="Salma Begum Tamanna" />
+    <meta name="twitter:description" content="Portfolio Website" />
+    <meta name="twitter:image" content="" />
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon-small.png" type="image/x-icon">   
+    
+    <link rel="manifest" href="/manifest.json">
+
+    <script src="https://kit.fontawesome.com/eabac940d1.js" crossorigin="anonymous"></script>
+
+    <title>Salma Begum Tamanna - Portfolio</title>
+</head>
+
+<body id="body" onload="loader();light();showhome()">
+    <nav id="nav" style="display:none;">
+        <div class="logo">
+            <a href="#home"><h1>Salma Begum Tamanna</h1></a>
+        </div>
+        <button class="bar" onclick="navtoggle()"><i class="fa-solid fa-bars"></i></button>
+        <div class="nav-items" onblur="blur()">
+            <ul>
+                <li><a href="#home"> Home</a></li>
+                <li><a href="#about"> About</a></li>
+                <li><a href="#skills"> Skills</a></li>
+                <li><a href="#projects"> Projects</a></li>
+                <li><a href="#contact"> Contact</a></li>
+            </ul>
+        </div>
+        <button onclick="dark()" id="dark" class="theme-btn"><img src="icons/night.png" alt=""></button>
+        <button onclick="light()" id="light" class="theme-btn"><img src="icons/sun.png" alt=""></i></i></button></li>
+    </nav>
+    <main id="main" style="display:none;">
+        <section id="home" >
+            <div class="head-container">
+                <div class="heading">
+                    <h1>Hi,</h1>
+                    <h1><span class="hide">Hi,</span> I am <span class="name"> Salma Begum Tamanna </span></h1>
+                    <h1><span class="multiText"> </span></h1>
+                    <a href="assets/RESUME.pdf" download><button class="button">Check out my Resume </button></a>
+                </div>
+                <div class="socials">
+                    <a href="https://www.linkedin.com/in/tamanna-sb/"><i
+                            class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://github.com/tamanna-sb/"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <div class="explore">
+                    <a href="#about"><i class="fa-solid fa-arrow-down-long"></i></a>
+                </div>
+
+            </div>
+            <div class="picture">
+                <div class="dp">
+                    <img src="images/Tamanna-dp.jpg" alt="" class="hero-image">
+                </div>
+                
+            </div>
+
+        </section>
+
+        <section id="about" class="reveal">
+            <h1 class="titles">About &nbsp; <span> Me</span> </h1>
+            <div class="about reveal"> 
+                <div class="img-container reveal">
+                    <img src="images/Tamanna.jpg" alt="Tamanna's photo">
+                </div>
+                <div class="about-container reveal">
+                    <div class="p-container">
+                        <p>
+                            Hello, I'm <span>Salma Begum Tamanna</span>, Software Engineer with 5+ years of experience in developing scalable software and optimizing performance. Proficient in C#, .NET, Node.js, and SQL, with a proven track record of adopting and implementing new technologies to deliver impactful solutions.<br>
+
+                            Highlights:<br><br>
+                            🔸️Led full-stack development of the painting module in the Samsung Notes app, enhancing functionality, user experience and ensuring the component was the most bug-free and stable part of the application.<br>
+                            🔸️Optimized Samsung Notes app performance by resolving memory leaks, improving resource usage, and debugging, resulting in faster load times and smoother operation, even during background syncing.<br>
+                            🔸️Published research in the top-tier conference (ICSE), showcasing an AI engine to reduce LLM hallucinations in technical reports, increasing response accuracy by 30.3%. <br>
+                            🔸️Launched an AI-assisted scalable Chrome extension to classify issue report information, improving accuracy by 11-13% and boosting developer productivity by streamlining issue exploration. <br>
+                            🔸️Awarded IBM's "Project of the Year" for contributions to AI-driven issue management systems, showcasing innovation in creating solutions that significantly boost developer productivity and improve software engineering efficiency. <br>
+                           <br>
+                            Feel free to <a href="#contact">contact me.</a> I'd love
+                            to hear from you!<br><br>
+                        </p>
+
+                    </div>
+                    <div class="btn-container reveal">
+                        <a href="#skills"><Button class="button">See My Skills</Button></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+
+        
+        <section id="work" class="reveal">
+            <h1 class="titles"><span>My</span> &nbsp Work Experience </h1>
+            <div class="edu-container">
+                <div class="edu-box reveal">
+                    <div class="edu-icon">
+                        <i class="fa-solid fa-briefcase"></i>
+                        <p></p>
+                    </div>
+                    <div class="edu-details">
+                        <p class="edu-year"><span>2022 - 2024</span></p>
+                        <p class="edu-title">Software Engineering Researcher</p>
+			            <p class="edu-subtitle"> In support of IBM Canada </p>
+                        <p class="edu-desc">
+                            <a href="https://giasuddin.ca/disa-lab/">
+                                Data Intensive Software Analytics (DISA) Lab
+				                <br> 
+				                Calgary, Canada
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="edu-box reveal">
+                    <div class="edu-icon">
+                        <i class="fa-solid fa-briefcase"></i>
+                        <p></p>
+                    </div>
+                    <div class="edu-details">
+                        <p class="edu-year"><span>2019 - 2022</span></p>
+                        <p class="edu-title">Senior Software Engineer</p>
+			<p class="edu-subtitle">Samsung Notes (Windows) </p>
+                        <p class="edu-desc">
+                            <a href="https://research.samsung.com/srbd">
+                                Samsung R&D Institute Bangladesh
+                                <br> 
+                                Dhaka, Bangladesh
+                            </a>
+                        </p>
+                    </div>
+                </div> 
+            </div>
+        </section>
+        
+
+        
+<section style="margin-bottom: 150px;">
+    <!-- Content here -->
+</section>
+
+        <section id="education" class="reveal">
+            <h1 class="titles"><span>My</span> &nbsp Education </h1>
+            <div class="edu-container">
+                <div class="edu-box reveal">
+                    <div class="edu-icon">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                        <p></p>
+                    </div>
+                    <div class="edu-details">
+                        <p class="edu-year"><span>2022 - 2024</span></p>
+                        <p class="edu-title">Master of Science</p>
+			<p class="edu-subtitle">Specialization in Software Engineering </p>
+                        <p class="edu-desc">
+                            <a href="https://www.ucalgary.ca">
+                                University of Calgary
+				<br> 
+				Calgary, Canada
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div class="edu-box reveal">
+                    <div class="edu-icon">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                        <p></p>
+                    </div>
+                    <div class="edu-details">
+                        <p class="edu-year"><span>2014 - 2018</span></p>
+                        <p class="edu-title">Bachelor of Science</p>
+			<p class="edu-subtitle">Computer Science and Engineering </p>
+                        <p class="edu-desc">
+                            <a href="https://www.buet.ac.bd">
+                                Bangladesh University of Engineering & Technology (BUET) 
+				<br> 
+				Dhaka, Bangladesh
+                            </a>
+                        </p>
+                    </div>
+                </div> 
+            </div>
+        </section>
+
+        <section id="skills" class="reveal">
+
+            <h1 class="titles"> <span>MY</span> &nbsp Skills</h1>
+            
+            <div class="skill-container reveal">
+                <div class="front end reveal">
+                    <h1>Languages</h1>
+                    <div class="skills-box" >
+                        <div class="skill">
+                            <img src="skills/Csharp.png" alt="">
+                            <h2>C#</h2>
+                        </div> 
+                        <div class="skill">
+                            <img src="skills/java.png" alt="">
+                            <h2>Java</h2>
+                        </div> 
+                        <div class="skill">
+                            <img src="skills/python.png" alt="">
+                            <h2>Python</h2>
+                        </div>
+                        <div class="skill">
+                            <img src="skills/js.png" alt="">
+                            <h2>Javascript</h2>
+                        </div>
+                        <div class="skill">
+                            <img src="skills/TS.png" alt="">
+                            <h2>Typescript</h2>
+                            
+                        </div>                               
+                    </div>
+                </div>
+                
+                    <div class="back end reveal">
+                    <h1>Database</h1>
+                    <div class="skills-box">
+                        <div class="skill">
+                            <img src="skills/mysql.png" alt="">
+                            <h2>MySQL</h2>
+                        </div>
+                        <div class="skill">
+                            <img src="skills/oracle.png" alt="" class="outline">
+                            <h2>Oracle</h2>
+                        </div>
+                        <div class="skill">
+                            <img src="skills/sqlite.png" alt="">
+                            <h2>SQLite</h2>
+                        </div>
+                        <div class="skill">
+                            <img src="skills/mongodb.png" alt="">
+                            <h2>MongoDB</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="back end reveal">
+                    <h1>Framework</h1>
+                    <div class="skills-box">
+                        <div class="skill">
+                            <img src="skills/.net.png" alt="">
+                            <h2>.NET</h2>
+                        </div>
+                        <div class="skill">
+                            <img src="skills/nodejs.png" alt="" class="outline">
+                            <h2>Node.js</h2>
+                        </div>
+                        
+                        <div class="skill">
+                            <img src="skills/tensorflow.png" alt="">
+                            <h2>Tensorflow</h2>
+                        </div>
+                        <div class="skill">
+                            <img src="skills/react.png" alt="">
+                            <h2>React</h2>
+                        </div>
+                        
+                        <div class="skill">
+                            <img src="skills/django.png" alt="">
+                            <h2>Django</h2>
+                        </div>
+                        <div class="skill">
+                            <img src="skills/spring.png" alt="">
+                            <h2>Spring</h2>
+                        </div>
+
+                    </div>
+                </div>
+                
+                <div class="back end reveal">
+                    <h1>Tools</h1>
+                    <div class="skills-box">
+                        <div class="skill">
+                            <img src="skills/git.png" alt="">
+                            <h2>Git</h2>
+                        </div>
+                        <div class="skill">
+                            <img src="skills/docker.png" alt="" class="outline">
+                            <h2>Docker</h2>
+                        </div>
+                        <div class="skill">
+                            <img src="skills/perforce.png" alt="">
+                            <h2>Perforce</h2>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <section style="margin-bottom: 150px;">
+            
+        </section>
+        
+        
+        <section id="projects" class="reveal">
+            <h1 class="titles"> <span>Featured</span> &nbsp Projects</h1>
+            <div class="project-container">
+                
+                
+
+                
+                <div class="project reveal" >
+                    <div>
+                        <img src="images/note.webp" alt="">
+                    </div>
+                    <h1>Samsung Notes</h1>
+                    <p> <span class="language"> C# </span>
+                        <span class="language"> .NET </span>
+                        <span class="language"> UWP</span>
+                        <span class="language"> XAML</span>
+                        <span class="language"> C++ </span>
+                    </p>
+                    <div class="action-container">
+                        <a href="https://www.samsung.com/us/support/owners/app/samsung-notes"><button>App</button></a>
+                    </div>
+                </div>
+                
+    
+                <div class="project reveal" >
+                    <div>
+                        <img src="images/issue.png" alt="">
+                    </div>
+                    <h1>Issue Information Summarization</h1>
+                    <p> <span class="language"> Node.js </span>
+                        <span class="language"> TS </span>
+                        <span class="language"> JS</span>
+                        <span class="language"> Django </span>
+                        <span class="language"> SQLite </span>
+                    </p>
+                    <div class="action-container">
+                        <a href="https://github.com/tamanna-sb/ISum"><button>Code</button></a>
+                    </div>
+                </div>
+                
+                 <div class="project reveal" >
+                    <div>
+                         <img src="images/gpt.jpg" alt="">
+                    </div>
+                    <h1>ChatGPT Inaccuracy Mitigation</h1>
+                    <p> <span class="language"> LLM </span>
+                        <span class="language"> OpenAI </span>
+                        <span class="language"> Python</span>
+                        <span class="language"> SQlite </span>
+                    </p>
+                    <div class="action-container">
+                        <a href="https://github.com/tamanna-sb/CHIME---ChatGPT-Inaccuracy-Mitigation-Engine"><button>Code</button></a>
+                    </div>
+                </div>
+                <div class="project reveal" >
+                    <div>
+                         <img src="images/story.jpg" alt="">
+                    </div>
+                    <h1>Story Sharing Website</h1>
+                    <p> <span class="language"> Java </span>
+                        <span class="language"> Spring MVC </span>
+                        <span class="language"> Oracle</span>
+                    </p>
+                    <div class="action-container">
+                        <a href="https://github.com/tamanna-sb/shopdokolpo--story-sharing-site"><button>Code</button></a>
+                    </div>
+                </div>
+                
+                <div class="project reveal" >
+                    <div>
+                        <img src="images/bookshop.jpg" alt="">
+                    </div>
+                    <h1>Online Bookshop</h1>
+                    <p> <span class="language"> Java </span>
+                        <span class="language"> Spring Boot </span>
+                        <span class="language"> Oracle</span>
+                    </p>
+                    <div class="action-container">
+                        <a href="https://github.com/tamanna-sb/Online_Bookshop"><button>Code</button></a>
+                    </div>
+                </div>
+                                
+                <div class="project reveal" >
+                    <div>
+                        <img src="images/report.png" alt="">
+                    </div>
+                    <h1>Grievance Redress System</h1>
+                    <p> <span class="language"> Java </span>
+                        <span class="language"> MySQL </span>
+                    </p>
+                    <div class="action-container">
+                        <a href="https://github.com/tamanna-sb/Grievance-Redress-System"><button>Code</button></a>
+                    </div>
+                </div>
+                                
+               
+            </div>
+        </section>
+
+            
+            <section id="Publication" class="reveal">
+            <h1 class="titles"> <span>MY</span> &nbsp Publications</h1>
+            <div class="project-container">
+                <div class="project reveal" >
+                    <div>
+                        <img src="images/gpt.jpg" alt="">
+                    </div>
+                    <h1>ChatGPT Inaccuracy Mitigation during Technical Report Understanding: Are We There Yet?</h1>
+                    <p> <span class="language"> LLM </span>
+                        <span class="language"> OpenAI </span>
+                        <span class="language"> Python</span>
+                        <span class="language"> SQlite </span>
+                    </p>
+                    <div class="action-container">
+                        <a href="https://www.arxiv.org/abs/2411.07360"><button>Paper</button></a>
+                    </div>
+                </div>
+                
+                 <div class="project reveal" >
+                    <div>
+                       <img src="images/runtime.jpg" alt="">
+                    </div>
+                    <h1>Characterizing Issue Management in Runtime Systems</h1>
+                     <h1>CASCON 2023</h1>
+                    <p> <span class="language"> Runtime </span>
+                        <span class="language"> Empirical Research </span>
+
+                    </p>
+                    <div class="action-container">
+                        <a href="https://arxiv.org/abs/2310.15971"><button>Github</button></a>
+                    </div>
+                </div>
+               
+            </div>
+        </section>
+            
+        <section style="margin-bottom: 150px;">
+
+        </section>
+            
+            
+        <section id="contact" class="reveal">
+            <h1 class="titles"> Contact&nbsp<span>Me</span> </h1>
+            <div class="contact-container reveal">
+                <div class="left-side">
+                <a href="mailto:tamanna.sb13@gmailcom" class="reveal" id="no-anim">
+                    <div class="details">
+                        <h1><i class="fa-solid fa-envelope"></i>Email</h1>
+                        <h3>tamanna.sb13@gmail.com</h3>
+                    </div>
+                </a>
+                <a href="" class="reveal" id="no-anim">
+                    <div class="details">
+                        <h1><i class="fa-solid fa-location-dot"></i>&nbspLocation</h1>
+                        <h3>Calgary, Canada</h3>
+                    </div>
+                </a>
+                </div>
+
+            </div>
+
+        
+
+        <footer>
+            <div class="footer-socials">
+                <a href="https://www.linkedin.com/in/tamanna-sb/"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/tamanna-sb/"><i class="fa-brands fa-github"></i></a>
+
+            </div>
+        </footer>
+        
+        <!-- <audio src="assets/Reminder.mp3" autoplay controls> </audio> -->
+
+
+     </section>
+    </main>
+
+    <!-- -----------------------loading animation----------------- -->
+    <div id="loader">
+    <div class="boxes">
+        <div class="box">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="box">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="box">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="box">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    
+    <a class="dribbble" href="https://dribbble.com/shots/5533600-Loading-boxes" target="_blank"><img
+            src="https://cdn.dribbble.com/assets/dribbble-ball-mark-2bd45f09c2fb58dbbfb44766d5d1d07c5a12972d602ef8b32204d28fa3dda554.svg"
+            alt=""></a>
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script type="text/javascript" src="js/vanilla-tilt.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
+
+
+<!--========================================= Why are you reading this ? ============================================== -->
+
+
+<!-- ===================================== Design and Code by Arjun C Vinod ============================================-->
